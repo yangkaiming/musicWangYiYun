@@ -1,0 +1,102 @@
+#backg{
+    width: 100%;
+    height: 22rem;
+    top: 0;
+    left: 0;
+}
+#music_one{
+    display: flex;
+    width: 100%;
+    height:10.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+#music_one p{
+    color: rgb(236, 232, 232);
+    font-size: 1.2rem;
+}
+#icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+#icon img{
+    width: 2rem;
+}
+#icon figcaption{
+    color: white;
+    text-align: center;
+}
+#mus{
+    width: 100%;
+    display: flex;
+    border-bottom: .08rem solid gainsboro;
+    justify-content: space-between;
+}
+#mus Icon{
+    width: 1.6rem;
+
+}
+#mus>div:first-child{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#mus>div:first-child>p{
+    font-size: 1.4rem;
+    margin:0 1rem;
+}
+#mus>div:first-child h5{
+    font-size: 1.3rem;
+    margin: 0;
+}
+#mus>div:first-child span{
+    font-size: 1rem;
+    color: rgb(207, 204, 204)
+}
+#mus>div:last-child{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+#mus_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    border-bottom: 0.08rem solid gainsboro;
+}
+#mus_top img{
+    width: 2.3rem;
+    line-height: 3rem;
+}
+#mus_top>div:first-child>span:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+#mus_top>div:last-child>img{
+    width: 1.5rem;
+}
+#mus_top>div:last-child>span{
+    margin: 0 .5rem;
+    font-weight: 700;
+}
+
+/* 背景虚化 */
+#background{
+    width: 100%;
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(80px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+
+}

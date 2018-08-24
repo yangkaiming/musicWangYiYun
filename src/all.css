@@ -1,0 +1,22 @@
+#musicall{
+    width:100%;
+    display: flex;
+    background:black;
+    height: 4rem;
+    opacity: 0.8;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index:1;
+}
+#musicall img{
+    width:3.8rem;
+}
+#musicall p:last-child{
+    margin-bottom: 0;
+}
+#musicall p{
+    text-align: center;
+    color: white;
+}
